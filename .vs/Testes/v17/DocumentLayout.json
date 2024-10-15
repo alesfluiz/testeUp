@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\alesf\\source\\repos\\Testes\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2FB44EB3-33B9-434D-8B2A-58C07699546D}|Testes\\Testes.csproj|c:\\users\\alesf\\source\\repos\\testes\\testes\\entities\\peca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB44EB3-33B9-434D-8B2A-58C07699546D}|Testes\\Testes.csproj|solutionrelative:testes\\entities\\peca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2FB44EB3-33B9-434D-8B2A-58C07699546D}|Testes\\Testes.csproj|c:\\users\\alesf\\source\\repos\\testes\\testes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FB44EB3-33B9-434D-8B2A-58C07699546D}|Testes\\Testes.csproj|solutionrelative:testes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Peca.cs",
+              "DocumentMoniker": "C:\\Users\\alesf\\source\\repos\\Testes\\Testes\\Entities\\Peca.cs",
+              "RelativeDocumentMoniker": "Testes\\Entities\\Peca.cs",
+              "ToolTip": "C:\\Users\\alesf\\source\\repos\\Testes\\Testes\\Entities\\Peca.cs",
+              "RelativeToolTip": "Testes\\Entities\\Peca.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAgwCcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T01:31:09.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\alesf\\source\\repos\\Testes\\Testes\\Program.cs",
               "RelativeDocumentMoniker": "Testes\\Program.cs",
               "ToolTip": "C:\\Users\\alesf\\source\\repos\\Testes\\Testes\\Program.cs",
               "RelativeToolTip": "Testes\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAQwBwAAABlAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T02:33:54.707Z",
               "EditorCaption": ""

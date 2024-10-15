@@ -2,6 +2,7 @@
 using System.Globalization;
 using System.Linq.Expressions;
 using System.Security.Principal;
+using Testes.Entities;
 
 namespace Testes
 {
@@ -9,24 +10,14 @@ namespace Testes
     {
         static void Main(string[] args)
         {
+            Peca peca = new Peca();
 
-            string[] peca1 = Console.ReadLine().Split(' ');
+            string[] pecaInformada = Console.ReadLine().Split(' ');
 
-            int codigo = int.Parse(peca1[0]);
-            int quantidade = int.Parse(peca1[1]);
-            double valor = double.Parse(peca1[2], CultureInfo.InvariantCulture);
-            double valorP1 = quantidade * valor;
+            peca.AdicionarPecas(pecaInformada);
 
-            string[] peca2 = Console.ReadLine().Split(' ');
-
-            int codigo2 = int.Parse(peca2[0]);
-            int quantidade2 = int.Parse(peca2[1]);
-            double valor2 = double.Parse(peca2[2],CultureInfo.InvariantCulture);
-            double valorP2 = quantidade2 * valor2;
-
-            double total = valor + valorP2;
-
-            Console.WriteLine($"VALOR A PAGAR: R$ {total.ToString("F2", CultureInfo.InvariantCulture)}");
+            
+            Console.WriteLine($"VALOR A PAGAR: R$ {peca.ValorTotal().ToString("F2", CultureInfo.InvariantCulture)}");
 
 
 
